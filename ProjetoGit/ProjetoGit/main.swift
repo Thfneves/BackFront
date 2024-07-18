@@ -6,6 +6,6 @@
 //
 
 import Foundation
-
-print("Hello,Git")
+var hello = "Hello Word"
+print(hello)
 
