@@ -17,10 +17,24 @@ class Automovel {
     func ligarFarol() {
         print("O Farol está ligado")
     }
-        func ligarOCarro () {
-            print("0 carro está ligado")
-            
-            
-        }
+    func velocidade () {
+        print("0 carro está a ",velocidade, "por hora")
+        
         
     }
+    
+}
+class rua {
+    var faixa: String = "Faixa pedestre"
+    var placa: String = "Pare"
+    
+}
+class semaforo{
+    var vermelho: String = "Vermelho"
+    var verde: String = "Verde"
+    var laranha: String = "Laranja"
+}
+
+class velocidade {
+    var velocidade: Int = 50
+}
