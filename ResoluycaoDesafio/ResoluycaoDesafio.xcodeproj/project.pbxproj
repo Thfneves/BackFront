@@ -29,22 +29,9 @@
 		11A6C91F2C9A48340049CE86 /* ResoluycaoDesafioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResoluycaoDesafioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		11A6C9272C9A48340049CE86 /* Exceptions for "ResoluycaoDesafio" folder in "ResoluycaoDesafio" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 11A6C8FE2C9A48310049CE86 /* ResoluycaoDesafio */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		11A6C9012C9A48310049CE86 /* ResoluycaoDesafio */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				11A6C9272C9A48340049CE86 /* Exceptions for "ResoluycaoDesafio" folder in "ResoluycaoDesafio" target */,
-			);
 			path = ResoluycaoDesafio;
 			sourceTree = "<group>";
 		};
