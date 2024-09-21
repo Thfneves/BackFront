@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ResoluycaoDesafio
+//  ResolucaoDesafio
 //
 //  Created by Thiago Neves on 17/09/24.
 //
