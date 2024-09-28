@@ -46,7 +46,7 @@ extension PrimeiraTelaViewController: UITableViewDelegate, UITableViewDataSource
 
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: PrimeiraTelaTableViewCell.identifier, for: indexPath) as? PrimeiraTelaTableViewCell
-            cell?.setupconfig(Carro: carro[indexPath.row])
+            cell?.setupconfig(carros: carro[indexPath.row])
             return cell ?? UITableViewCell()
         }
   

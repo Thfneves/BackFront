@@ -31,8 +31,8 @@ class PrimeiraTelaTableViewCell: UITableViewCell {
     @IBOutlet weak var CarroNamed: UILabel!
     @IBOutlet weak var LabelImageView: UIImageView!
  
-    func setupconfig(Carro: UIImageView) {
-        LabelImageView.image = UIImage(named: Carro.carros)
+    func setupconfig(carros: carro) {
+        LabelImageView.image = carros(named: carro)
        
     }
     
